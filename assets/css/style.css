@@ -35,6 +35,28 @@ h1, h2  {
 
 #menu li{
     float: right;
+    list-style-type: none;
     margin-right: 30px;
-    list-style: none;
+    
+}
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom:1px solid #3a3a3a ;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/hero-image.webp') no-repeat center center;
+    }
 }
